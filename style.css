@@ -1,0 +1,77 @@
+body {
+    background-color: #1B4965;
+}
+
+h1 {
+    
+    font-family: IBM Plex Mono;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+h2 {
+    
+    font-family: IBM Plex Mono;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.title-container {
+    position: absolute;
+    width: 902px;
+    height: 167px;
+    top: 300px;
+}
+
+#project-1-name {
+    position: absolute;
+    color: #CAE9FF;
+}
+
+#description {
+    position: absolute;
+    top: 180px;
+    color: #62B6CB;
+  
+}
+a {
+    color: #62B6CB;
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #BEE9E8;
+}
+
+#name {
+    position: absolute;
+    top: 320px;
+    color: #CAE9FF;
+    
+}
+
+#arrow {
+    position: absolute;
+    left: 250px;
+    top: 360px;
+}
+
+#graph-deco {
+    
+    position: relative;
+    top: 0px;
+
+}
+#graph-deco img {
+    position: absolute;
+    top: -50px;
+    right: 0px;
+}

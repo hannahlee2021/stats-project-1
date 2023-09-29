@@ -1,0 +1,127 @@
+body {
+    background-color: #1B4965;
+}
+h1 {
+    color:#CAE9FF;
+    font-size: 30px;
+}
+p {
+    color:#CAE9FF;
+    font-size: 10px;
+}
+.title-container {
+
+    position: absolute;
+    width: 100%;
+    padding-left: 100px;
+    padding-top: 100px;
+    /* left: 150px;
+    top: 150px; */
+}
+#FAQTitle {
+
+        
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 29px;
+        
+    color: #CAE9FF;
+}
+
+a:visited,
+a:link {
+text-decoration: none;
+color:  #5FA8D3;
+}
+a:hover {
+    text-decoration: none;
+    color: #5FA8D3;  
+}
+a:active {
+text-decoration: none;
+color:#5FA8D3;
+}
+
+.active a {
+color: #5FA8D3; 
+}
+
+
+
+
+
+
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 40%;
+    min-width: 250px;
+    border: 1px solid transparent;
+    position: absolute;
+    transform: translate(-150%, -70%);
+    top: 60%;
+    left: 70%;
+}
+
+.wrapper {
+    background-color: none;
+    margin-bottom: 20px;
+    padding: 44px 10px;
+    border-radius: 5px;
+    /*box-shadow: 0 15px 25px rgba(0,0,50,0);*/
+}
+
+.toggle,
+.content {
+    font-family: 'Montserrat', sans-serif; 
+}
+
+.toggle {
+    width: 100%;
+    background-color: transparent;
+    flex-wrap: wrap;
+    display: flex;
+    align-content: start;
+    justify-content: space-between;
+    font-size: 20px;
+    color: #5FA8D3;
+    font-weight: 300px;
+    border: none;
+    outline: none;
+    cursor: pointer; 
+    padding: 3px s0;
+    
+}
+
+.content {
+    position: relative; 
+    font-size: 14px;
+    text-align: justify;
+    line-height: 20px;
+    height: 0;
+    overflow: hidden;
+    transition: all 1s;
+
+}
+
+#arrow-1 img{
+    position: absolute;
+    width: 200px;
+    left: 100px;
+    top: 700px;
+}
+
+#year-education {
+    position: absolute;
+    left: 750px;
+    top: 300px;
+
+}

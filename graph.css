@@ -1,0 +1,64 @@
+body {
+  
+    background-color: #1B4965;
+    margin: 0;
+    overflow: hidden;
+
+
+ 
+}
+/* body {
+    margin: 0;
+    overflow: hidden;
+  } */
+
+
+#grid {
+    position: absolute;
+    top: -10px;
+   
+    z-index: 1;
+}
+
+.points {
+   
+}
+
+#point-1 {
+    position: absolute;
+    left: 219px;
+    top: 247px;
+    z-index: 1;
+}
+
+#point-2 {
+    position: absolute;
+    left: 534px;
+    top: 611px;
+    z-index: 1;
+}
+#point-3 {
+    position: absolute;
+    left: 957px;
+    top: 467px;
+    z-index: 1;
+}
+#point-4 {
+    position: absolute;
+    left: 1189px;
+    top: 350px;
+    z-index: 1;
+}
+#point-5 {
+    position: absolute;
+    left: 1393px;
+    top: 675px;
+    z-index: 1;
+}
+#arrow-1 img{
+    position: absolute;
+    width: 200px;
+    left: 100px;
+    top: 700px;
+    z-index: 1;
+}
